@@ -1,10 +1,6 @@
 ﻿using UnityEngine;
 using VRTK;
 
-// constant conventions c#?
-
-// if several variables use same prefix maybe consider putting them in struct
-
 [RequireComponent(typeof(AudioSource))]
 public class Gramophone : MonoBehaviour {
     Transform snapDropZoneTransform;
